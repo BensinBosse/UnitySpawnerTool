@@ -16,7 +16,7 @@ public class SpawnHandeler : MonoBehaviour
     public float spawnDistance;
     Bounds bounds;
 
-    public GameObject clone;
+    private GameObject clone;
 
 
     bool enableSpawn = false;
